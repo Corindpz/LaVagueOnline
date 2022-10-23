@@ -1,0 +1,123 @@
+html {
+    background-color: black;
+    font-family: High Tower Text;
+    color: white;
+}
+header {
+    width: 100%;
+    text-align: center;
+
+}
+.titre {
+    height: 150px;
+    width: 150px;
+}
+
+body {
+    
+    
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    
+    
+    width: auto;
+}
+
+.shootings {
+   height: auto;
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 20px;
+    transition: transform .2s;
+
+}
+
+.container:hover > .shootings:not(:hover) {
+    filter: blur(5px);
+}
+
+
+.shootings:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 80px;
+    background: #0247a0;
+    color: black;
+    
+    padding: 10px;
+    margin: none;
+    
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+
+.text {
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    
+    padding: 3px;
+    margin: 5px;
+    
+    
+}
+
+
+span {
+    display: inline-block;
+    
+    background-color: #0247a0;
+    width: 100%;
+    font-size: smaller;
+    padding-bottom: 15px;
+   padding-left: 20px;
+   font-family: 'Silkscreen', cursive;
+   color: black;
+}
+.avrilvert {
+    text-decoration: none;
+    color: black;
+}
